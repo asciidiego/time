@@ -1,0 +1,20 @@
+{
+  "name": "bobby-web",
+  "version": "1.0.0",
+  "description": "A web-based subscription tracker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bobby",
+    "finance",
+    "subscription",
+    "tracker",
+    "administration",
+    "manager",
+    "hassle"
+  ],
+  "author": "Diego Rodriguez",
+  "license": "MIT"
+}
