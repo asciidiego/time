@@ -1,9 +1,18 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
     font-size: 3em;
     padding: 4%;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.action-bar {
+.subscription-item {
+    height: 10em;
+    background-color: lightpink;
+}
+
+.subscription-label {
+    font-size: 3em;
 }
