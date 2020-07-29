@@ -4,7 +4,8 @@
   "description": "A web-based subscription tracker.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server"
   },
   "keywords": [
     "bobby",
@@ -16,5 +17,8 @@
     "hassle"
   ],
   "author": "Diego Rodriguez",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
