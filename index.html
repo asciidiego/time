@@ -12,14 +12,36 @@
 </head>
 
 <body>
-    <div class="action-bar">
-        <h1 class="header">My Subscriptions</h1>
+    <div id="app">
+        <center>
+            <div class="action-bar">
+                <img class="action-bar-button" src="./images/placeholder.png" alt="Button">
+                <h1 class="header">{{header}}</h1>
+                <img class="action-bar-button" src="./images/placeholder.png" alt="Button">
+            </div>
+        </center>
+        <ul class="subscription-list">
+            <li v-for="subscription in subscriptions" class="subscription-item">
+                <div class="subscription-label">{{subscription.label}}</div>
+            </li>
+        </ul>
     </div>
-    <div class="subscription-item">
-        <div class="subscription-logo">[]</div>
-        <div class="subscription-label">Netflix</div>
-        <div class="subscription-price">9,99 E</div>
-    </div>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                header: 'My Subscriptions',
+                subscriptions: [
+                    {
+                        label: 'Netflix',
+                    },
+                    {
+                        label: 'iCloud',
+                    }
+                ]
+            }
+        })
+    </script>
 </body>
 
 </html>

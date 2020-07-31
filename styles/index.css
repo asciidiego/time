@@ -2,13 +2,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.action-bar {
+    align-items: center;
+    display: inline-flex;
+    max-height: 10%;
+}
+
+.action-bar-button {
+    height: 64px;
+    width: 64px;
+}
+
 .header {
     font-size: 3em;
-    padding: 4%;
+    margin: 1em;
     text-align: center;
 }
 
+.subscription-list {
+    margin: 0;
+    padding: 0 5%;
+    list-style: none;
+}
+
 .subscription-item {
+    margin: 2%;
+    padding: 1em;
     height: 10em;
     background-color: lightpink;
 }
