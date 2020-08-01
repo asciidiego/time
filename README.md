@@ -1,6 +1,8 @@
 # Time
 Open-source cross-platform application for subscription management. Save time. For free.
 
+![Latest app screenshot](assets/images/latest-app-screenshot.png)
+
 ## Setup
 
 1. Execute `npm i`.
