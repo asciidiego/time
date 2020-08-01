@@ -13,16 +13,18 @@
 
 <body>
     <div id="app">
-        <center>
-            <div class="action-bar">
-                <i class="action-bar-item fas fa-cog"></i>
-                <p class="action-bar-item header">{{header}}</p>
-                <i class="action-bar-item fas fa-plus" alt="Add subscripition"></i>
-            </div>
-        </center>
+        <div class="action-bar">
+            <i class="action-bar-item fas fa-cog"></i>
+            <p class="action-bar-item header">{{header}}</p>
+            <i class="action-bar-item fas fa-plus" alt="Add subscripition"></i>
+        </div>
         <ul class="subscription-list">
             <li v-for="subscription in subscriptions" class="subscription-item">
-                <div class="subscription-label">{{subscription.label}}</div>
+                <div class="subscription-info">
+                    <i class="subscription-logo fas fa-cloud"></i>
+                    <div class="subscription-label">{{subscription.label}}</div>
+                </div>
+                <p class="subscription-price">2,99€</p>
             </li>
         </ul>
     </div>

@@ -3,17 +3,19 @@
     font-stretch: expanded;
 }
 
+#app {
+    padding: 2em;
+}
+
 .action-bar {
     align-items: center;
     justify-content: space-between;
     display: flex;
     max-height: 10%;
-    margin: 1em 2em;
 }
 
 .action-bar-item {
     font-size: 3em;
-    margin: 1em;
 }
 
 .placeholder {
@@ -26,18 +28,41 @@
 }
 
 .subscription-list {
-    margin: 0;
-    padding: 0 5%;
+    padding: 0;
     list-style: none;
 }
 
-.subscription-item {
-    margin: 2%;
+.subscription-list .subscription-item {
+    margin: 1em 0;
     padding: 1em;
-    height: 10em;
-    background-color: lightpink;
+}
+
+.subscription-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8em;
+    border-radius: 1em;
+    background-color: royalblue;
+    color: white;
+}
+
+.subscription-info {
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.subscription-logo {
+    font-size: 4em;
+    margin: 1em;
 }
 
 .subscription-label {
     font-size: 3em;
+}
+
+.subscription-price {
+    font-size: 3em;
+    margin: 1em;
 }
