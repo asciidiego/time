@@ -7,17 +7,17 @@
     <meta name="author" content="Diego Rodriguez">
     <meta name="description" content="Polaroo allows you to free your mind from financial stress.">
 
-    <!-- Vue -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/44da81469e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="app">
         <center>
             <div class="action-bar">
-                <img class="action-bar-button" src="./images/placeholder.png" alt="Button">
-                <h1 class="header">{{header}}</h1>
-                <img class="action-bar-button" src="./images/placeholder.png" alt="Button">
+                <i class="action-bar-item fas fa-cog"></i>
+                <p class="action-bar-item header">{{header}}</p>
+                <i class="action-bar-item fas fa-plus" alt="Add subscripition"></i>
             </div>
         </center>
         <ul class="subscription-list">
@@ -26,6 +26,10 @@
             </li>
         </ul>
     </div>
+
+    <!-- Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
     <script>
         const app = new Vue({
             el: '#app',

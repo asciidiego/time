@@ -1,21 +1,27 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
 }
 
 .action-bar {
     align-items: center;
-    display: inline-flex;
+    justify-content: space-between;
+    display: flex;
     max-height: 10%;
+    margin: 1em 2em;
 }
 
-.action-bar-button {
+.action-bar-item {
+    font-size: 3em;
+    margin: 1em;
+}
+
+.placeholder {
     height: 64px;
     width: 64px;
 }
 
 .header {
-    font-size: 3em;
-    margin: 1em;
     text-align: center;
 }
 
